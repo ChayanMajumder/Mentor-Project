@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.clr{
+    clear: both;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background: #fff;
+    z-index: 9;
+}
+.navbar-brand{
+    font-size: 35px;
+    font-weight: 600;
+    color: #5fcf80;
+    transition: all 04s;
+}
+.navbar-brand:hover{
+    color: #3ac162;
+}
+
+.nav-item{
+    margin-right: 15px;
+}
+.nav-link{
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color: #5fcf80;
+}
+.header-btn{
+    background: #5fcf80;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 22px;
+    transition: all 0.4s;
+}
+.header-btn:hover{
+    background-color: #3ac162;
+    color: #fff;
+}
+
+#banner{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/hero-bg.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+}
+.banner-text{
+    width: 100%;
+}
+
+.banner-text h4{
+    width: 40%;
+    margin-top: 30vh;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-text p{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.banner-btn{
+    border: 1px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    padding: 8px 25px;
+}
+.banner-btn:hover{
+    color: #fff;
+    background: #3ac162;
+}
+
+#about{
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+}
+/* .about-box1{
+    order: 2;
+    
+}
+.about-box2{
+    order: 1;
+    margin-bottom: 30px;
+} */
+.about-text h6{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.about-text span {
+    margin-bottom: 15px;
+}
+.about-text li i{
+    color: #5fcf80;
+    border: 0.4px solid #5fcf80;
+    border-radius: 50%;
+    padding: 1px;
+}
+.about-text li{
+    padding-top: 15px;
+}
+
+
+
+#counts{
+    width: 100%;
+    height: auto;
+    background: #f6f7f6;
+    padding: 10px 0;
+}
+.counter{
+    color: #5fcf80;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+#why-us{
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+}
+#why-us .content{
+    padding: 30px;
+    background: #5fcf80;
+    border-radius: 10px;
+    color: #fff;
+}
+#why-us .ahy-us-btn{
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    padding: 8px 40px;
+    transition: all 0.5s;
+}
+#why-us .ahy-us-btn:hover{
+    background: #fff;
+    color: #5fcf80;
+}
+#why-us .content h4{
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+#why-us .content p{
+    margin-bottom: 30px;
+}
+#why-us .icon-box{
+    padding: 20px;
+    border: 1px solid #eef0ef;
+    border-radius: 5px;
+}
+#why-us .icon-box i{
+    font-size: 22px;
+    padding: 20px 22px;
+    border-radius: 50%;
+    color: #5fcf80;
+    background: #ecf9f0;
+    margin-bottom: 20px;
+}
+#why-us .icon-box h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+#why-us .icon-box p{
+    font-size: 15px;
+    color: #848484;
+}
+
+
+
+#features{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+#features .icon-box{
+    border: 1px solid #eef0ef ;
+    padding: 15px;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+#features .icon-box:hover{
+    border: 1px solid #5fcf80;
+}
+#features .icon-box:hover span{
+    color: #5fcf80;
+}
+#features .icon-box i{
+    font-size: 30px;
+    margin-right: 20px;
+    color: #ffbb2c;
+}
+#features .icon-box span{
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.4s;
+}
+
+#popular-courses{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+}
+.popular-title{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+#popular-courses .popular-title span{
+    font-size: 1rem;
+    color: #aaaaaa;
+    padding-top: 20px;
+}
+#popular-courses .popular-title h5{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.courses-items{
+    border: 1px solid #eef0ef;
+    border-radius: 5px;
+}
+.courses-items h3{
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 2px;
+    background: #5fcf80;
+    color: #fff;
+}
+.courses-content{
+    padding: 15px;
+}
+.price{
+    font-weight: 600;
+    font-size: 18px;
+}
+#popular-courses .courses-content a{
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+    color: #37423b;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+#popular-courses .courses-content a:hover{
+    color: #5fcf80;
+}
+#popular-courses .courses-content p{
+    color: #777777;
+    font-size: 15px;
+}
+.trainer{
+    border-top: 1px solid #eef0ef;
+}
+.trainer-profile img{
+    width: 50px;
+}
+.trainer-profile span{
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.trainer-rank span{
+    padding-right: 10px;
+}
+
+#trainers{
+    margin-top: 50px;
+}
+.member{
+    border: 1px solid #ecf9f0;
+    margin-bottom: 22px;
+}
+.member-content h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.member-content span{
+    font-style: italic;
+    font-size: 14px;
+}
+.member-content p{
+    padding-top: 15px;
+    font-style: italic;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+.social i{
+    padding: 0 5px;
+    color: #000;
+    font-size: 18px;
+    transition: all 0.4s;
+}
+.social i:hover{
+    color: #5fcf80;
+}
+
+footer{
+    background: #eef0ef;
+    padding: 20px 0;
+}
+.footer-content p{
+    color: #777777;
+}
+.footer-content h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-content ul li{
+    padding-top: 10px;
+}
+.footer-content ul li a{
+    color: #777777;
+    text-decoration: none;
+    font-size: 15px;
+}
+.footer-content ul li a:hover{
+    color: #5fcf80;
+}
+.footer-content ul li a i{
+    padding-right: 5px;
+    color: #5fcf80;
+}
+.footer-input .btn{
+    background: #3ac162;
+    color: #fff;
+    border-radius: 50px;
+}
+form{
+    margin-top: 50px;
+    border: 1px solid #aaaaaa;
+    border-radius: 50px;
+}
+
+#footer-content-email{
+    width: 100%;
+    padding: 5px 15px;
+    border: 0;
+    background: transparent;
+    border-radius: 50px;
+}
